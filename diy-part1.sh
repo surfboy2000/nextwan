@@ -21,5 +21,5 @@ echo 'src-git kenzo https://github.com/kenzok8/openwrt-packages' >>feeds.conf.de
 # ADD my luci-theme
 rm -rf package/lean/luci-theme-argon
 git clone  https://github.com/surfboy2000/luci-theme-argon.git package/lean/luci-theme-argon
-sed -i 's/luci-theme-bootstrap/luci-theme-argon/' feeds/luci/collections/luci/Makefile
+
 
