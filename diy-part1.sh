@@ -19,7 +19,7 @@ echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.co
 echo 'src-git kenzo https://github.com/kenzok8/openwrt-packages' >>feeds.conf.default
 
 # ADD my luci-theme
-rm -rf package/lean/luci-theme-argon
-git clone -b 18.06 https://github.com/surfboy2000/luci-theme-argon.git package/lean/luci-theme-argon
+# rm -rf package/lean/luci-theme-argon
+# git clone -b 18.06 https://github.com/surfboy2000/luci-theme-argon.git package/lean/luci-theme-argon
 
 
